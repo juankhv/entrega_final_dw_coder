@@ -1,0 +1,80 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+   
+// Reset
+*::after,
+*::before,
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    color: $text-color;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: $text-large;
+    color: $primary-1;
+
+}
+    
+h1,h2,h3{
+    text-transform: uppercase;
+
+}
+
+    
+h2{
+    font-size: $text-medium;
+}
+
+h3{
+    font-size: $text-small;
+}
+    
+
+p {
+    font-size: $text-xsmall;
+    line-height: $text-small
+}
+
+
+// Clases de fondos
+
+.linear-gradient{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,237,27,1) 0%, rgba(0,212,255,1) 100%);
+}
+.bg-gray{
+    background-color: $alternative-3;
+}
+
+.bg-footer{
+    background-color: $footer;
+}
+
+
+//Animaciones
+
+#transform:hover{
+    transform: translate(-10px, 10px);
+  }

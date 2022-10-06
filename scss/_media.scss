@@ -1,0 +1,67 @@
+@media(max-width: 992px){
+    .encabezado{
+        h1{
+            text-align: center;
+            margin-top: $spacing-small;
+        }
+        P{
+            text-align: center;
+            margin-top: $spacing-small;
+        }
+        img{
+            vertical-align: middle;
+            margin-top: $spacing-small;
+        };
+
+    
+    }
+    #cuerpo{
+        h2{
+            text-align: center;
+            margin-top: $spacing-small;
+        }
+        #analytics{
+            width: 80%;
+        }
+        #mobile{
+            margin: auto;
+            width: 50%;
+        }
+    }
+   
+   #pie{
+    text-align: center;
+    line-height: $spacing-small;
+    #redes{
+       justify-content : center;
+    }
+   
+   }
+}
+
+@media(max-width: 768px){
+    #contact{
+        h1{
+            text-align: center;
+            margin-top: $spacing-small;
+        }
+        P{
+            text-align: center;
+            margin-top: $spacing-small;
+        }
+    
+    }
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+

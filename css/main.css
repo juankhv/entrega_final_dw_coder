@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
+*::after,
+*::before,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  color: #2B2B2B;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.linear-gradient {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(8, 237, 27) 0%, rgb(0, 212, 255) 100%);
+}
+
+.bg-gray {
+  background-color: #dee2e6;
+}
+
+.bg-footer {
+  background-color: rgb(61, 59, 59);
+}
+
+#transform:hover {
+  transform: translate(-10px, 10px);
+}
+
+.btn-design, .btn-rounded {
+  width: 10rem;
+  background-color: #20c997;
+  color: white;
+  font-size: 1rem;
+}
+.btn-design:hover, .btn-rounded:hover {
+  background-color: aqua;
+}
+
+.btn-rounded {
+  border-radius: 1rem;
+}
+
+.red-instagram {
+  color: #ce1312;
+}
+
+.red-facebook {
+  color: #2956a3;
+}
+
+.red-linkedin {
+  color: #0076b8;
+}
+
+.nav-item {
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+
+#link:hover {
+  color: #20c997;
+}
+
+#caja {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 1rem;
+  line-height: 2rem;
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1098039216);
+  background-color: rgb(248, 249, 250);
+}
+#caja:hover {
+  background-color: #20c997;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#pageRegistro {
+  background-image: url(../img/bgRegistro-min.jpg);
+  background-size: cover;
+}
+
+#formRegistro form {
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1098039216);
+  background-color: rgb(248, 249, 250);
+  border-radius: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  line-height: 3.5rem;
+  margin: auto;
+}
+#formRegistro form input:hover {
+  border-color: aqua;
+}
+
+#formContact form {
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1098039216);
+  background-color: rgb(248, 249, 250);
+  border-radius: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  line-height: 3.5rem;
+  margin: auto;
+}
+#formContact form input:hover {
+  border-color: aqua;
+}
+#formContact form textarea:hover {
+  border-color: aqua;
+}
+
+#formLogin form {
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1098039216);
+  background-color: rgb(248, 249, 250);
+  border-radius: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  line-height: 3.5rem;
+  margin: auto;
+}
+#formLogin form input:hover {
+  border-color: aqua;
+}
+#formLogin form figure {
+  align-items: center;
+  text-align: center;
+}
+#formLogin form figure img {
+  width: 30%;
+}
+
+#page_404 h1 {
+  font-size: 10rem;
+}
+#page_404 button {
+  font-size: 1.8rem;
+}
+
+#politicas a {
+  color: var(--primary-2);
+  text-decoration: none;
+}
+#politicas a:hover {
+  color: #20c997;
+}
+
+#redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+#redes a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+#redes a:hover {
+  transform: scale(1.2);
+  color: aqua;
+}
+
+@media (max-width: 992px) {
+  .encabezado h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .encabezado P {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .encabezado img {
+    vertical-align: middle;
+    margin-top: 2rem;
+  }
+  #cuerpo h2 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  #cuerpo #analytics {
+    width: 80%;
+  }
+  #cuerpo #mobile {
+    margin: auto;
+    width: 50%;
+  }
+  #pie {
+    text-align: center;
+    line-height: 2rem;
+  }
+  #pie #redes {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  #contact h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  #contact P {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,51 @@
+@mixin flex ($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+// Clase extendida
+
+.btn-design{
+    width: $spacing-xxlarge;
+    background-color: $alternative-1;
+    color: $primary-2;
+    font-size: $text-xxsmall;
+    &:hover{
+        background-color: $hover-botones;
+    }
+
+}
+
+.btn-rounded{
+    @extend .btn-design;
+    border-radius: $spacing-xsmall;
+}
+
+//Map
+
+$redes: (
+	instagram: $instagram,
+	facebook: $facebook,
+	linkedin: $linkedin,
+
+);
+
+@each $red, $value in $redes{
+    .red-#{$red}{
+        color: $value;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
