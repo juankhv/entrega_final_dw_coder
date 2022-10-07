@@ -26,7 +26,7 @@ Es la única página que tiene un video mostrando el funcionamiento de la plataf
 
 ### Regístrate y Contacto
 
-Son las páginas más simples del sitio contienen dos formularios, la página de registro la complementa otra página de Log in para las personas que ya tienen cuenta. Además al dar clic en los botones de “CREAR CUENTA” y “ENVIAR” redireccionan a una página de error 404 y esta redirecciona a la página de inicio.
+Son las páginas más simples del sitio contienen dos formularios, la página de registro la complementa otra página de Log in para las personas que ya tienen cuenta. Además al dar clic en los botones de “CREAR CUENTA” y “ENVIAR” de los formularios, estos redireccionan a una página de error 404 y esta redirecciona a la página de inicio.
 
 ## Herramientas Utilizadas
 
