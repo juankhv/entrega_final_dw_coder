@@ -41,5 +41,5 @@ Este framework me pareció una herramienta indispensable para poder hacer respon
 Al principio me pareció super confuso usar este pre-procesador, pero a medida que iba practicando me pareció muy útil, sass ayuda mucho organizar el proyecto y a medida que utilizaba Nesting, Mixins y Extend el código en CSS iba quedando prolijo y me ayudo a ahorrar bastante tiempo.
 
 ## Estado del Proyecto
----
+
 Como comenté en la parte inicial todavía falta la página de Portal de Empresas y la idea hacer una One single page, mejorar su diseño, complementar el contenido e incorporar un lenguaje de programación como Javascript.
