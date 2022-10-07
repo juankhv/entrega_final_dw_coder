@@ -1,8 +1,8 @@
 ![Logo Aptitude](./img/logoWebHeader.png)
 
-[Github pages]()
+[Github pages](https://juankhv.github.io/entrega_final_dw_coder/)
 
-[Netlify]()
+[Netlify](https://aptitude-jch.netlify.app/)
 
 ## Introducción
 
