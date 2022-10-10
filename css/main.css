@@ -123,6 +123,12 @@ p {
   height: 100%;
 }
 
+#signPage {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
 #pageRegistro {
   background-image: url(../img/bgRegistro-min.jpg);
   background-size: cover;
@@ -142,6 +148,12 @@ p {
   border-color: aqua;
 }
 
+#contactPage {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
 #formContact form {
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1098039216);
   background-color: rgb(248, 249, 250);
@@ -157,6 +169,12 @@ p {
 }
 #formContact form textarea:hover {
   border-color: aqua;
+}
+
+#logPage {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
 #formLogin form {
